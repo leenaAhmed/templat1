@@ -1,0 +1,261 @@
+body{
+	 
+	 
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > 
+.active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color:#E41B17;
+} 
+.navbar-inverse{
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	 color: #BBB;
+} 
+.dropdown-menu {
+	background-color: #333;
+	min-width:200px;
+	border-top: 3px solid #E41B17 ;
+} 
+.dropdown-menu >li >a {
+	color: #AAA;  
+	transition: padding .5s ease ;
+	
+} 
+.dropdown-menu >li >a:hover ,
+.dropdown-menu >li >a:focus { 
+	background-color:#E41B17; 
+	color: #BBB ; 
+	padding-left: 25px;
+	
+} 
+.dropdown-menu .divider {
+	    background-color:  #CCC;
+} 
+.navbar-right .dropdown-menu {
+	left :0 ;
+	right: auto;
+} 
+.navbar-brand {
+	font-size :20px ;
+	color: #BBB ;
+	padding-right: 3px;
+} 
+.navbar-brand span {
+	color: #E41B17 ;
+}
+.carousel-inner  img {
+	width: 100%; 
+	 
+}   
+.carousel-indicators li {
+	border: 1px solid #EEE 
+		width: 15px; 
+	    height: 15 ;
+}  
+.carousel-indicators li.active{
+	background-color:  #e60024 ;
+}
+
+.about {
+	padding-top: 60px ;
+	padding-bottom: 40px ;
+} 
+.about .lead {
+	color: #888 ;
+} 
+/*start features */ 
+.features {
+	background-color: #EEE ;
+	padding-top: 40px ;
+	padding-bottom: 60px;
+} 
+.features h1 {
+	margin-bottom: 40px  ;
+} 
+.features .feat .fa {
+	    font-size: 25px;
+    margin-bottom: 10px;
+	color:   #e60024;
+}
+
+.features .feat p {
+	line-height: 2em ;
+}
+/* start testimonial */
+.testimonial {
+	padding-top: 50px ;
+	padding-bottom: 50px;
+} 
+.testimonial h1 {
+	font-weight: bold ;
+}
+.testimonial .lead {
+    line-height: 2em;
+	margin-bottom: 10px; 
+}  
+.testimonial .item span {
+	color: #e60024 ;
+	font-weight: bold;
+}
+.testimonial .carousel-inner {
+	min-height: 160px;
+}  
+.testimonial  .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+} 
+.testimonial  .carousel-indicators li { 
+	text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;  
+	transition: all .5s ease ;
+	
+} 
+.testimonial  .carousel-indicators li img {
+	
+	max-width: 100%
+} 
+.testimonial  .carousel-indicators li.active {
+    width:80px;
+    height:80px;
+    opacity:1;
+    background:none;
+	border: 3px solid   #e60024 ; 
+} 
+/* start price */
+.price {
+	background:#EEE
+} 
+.price .price_box {
+    background:#FFF;
+    padding:10px;
+    border:1px solid #DDD;
+    margin-bottom:15px
+}
+
+.price .price_box h2 {margin:5px 0 15px}
+
+.price .price_box:hover p {
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF
+}
+
+.price .price_box p { 
+	transition: all .7s ease-in-out ;
+    font-size:35px;
+    font-weight:bold;
+    color:#666;
+    width:100px;
+    height:100px;
+    background:#F3F3F3;
+    border-radius:50%;
+    line-height:100px;
+    border:2px solid #FFF;
+}
+
+.price  .price_box ul {line-height:250%;font-size:18px}
+
+.price .price_box a {margin-bottom:5px}
+
+/* end price */
+.team {
+	background : url('../image/team.jpg') no-repeat center center fixed;
+	min-height: 600px ; 
+	background-size: cover;
+}  
+ .team .my-team {
+	background:rgba(2,2,2,0.8);
+	color:#FFF;
+	min-height:600px ;
+	 padding-top: 40px ;
+	 padding-bottom: 40px;
+}  
+.team .my-team  h1 {
+	margin-bottom: 60px;
+}
+.my-team  .person:hover {
+	transform: scale(1.1,1.1);
+}
+.my-team  .person {
+	margin-bottom: 40px ; 
+		transition: all .7s ease-in-out ;
+} 
+
+/* start contact*/ 
+
+.secript {background:#EEE; padding-top: 40px ;padding-bottom: 70px}
+.secript h1 {color: #888 ;letter-spacing: 2px ;margin-bottom: 20px}
+.secript p {margin-bottom:30px} 
+.secript .form-control {border-radius:0;margin-right:-5px;width:300px} 
+.secript button {border-radius:0} 
+
+/* start stat */  
+.Stat {
+    background:url('../image/stats.jpg') no-repeat center center fixed;
+    min-height:300px
+}
+.Stat .data {background-color:rgba(2,2,2,0.8);color:#B6B5B5;min-height:300px}
+
+.Stat .mystat {margin-bottom:30px}
+
+.Stat .mystat:hover {color:#FFF}
+.Stat h2 {
+	margin-bottom: 40px; 
+	margin-top: 50px ;
+	font-weight: bold;
+}
+.Stat p {font-size:60px;font-weight:800;margin-bottom:0}
+
+.Stat span {font-size:18px} 
+
+/* start skills */ 
+.our-skills h3 {font-weight:bold;margin-top:0}
+.our-skills h1 {
+	margin-bottom: 40px; 
+	margin-top: 40px;
+	font: bold ;
+} 
+.our-skills .lead {font-family: 'Droid Sans', sans-serif;}
+.our-skills .progress {height:36px}
+
+.our-skills .progress-bar {
+    line-height:36px;
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+    text-indent:10px
+} 
+/* start contact */ 
+.contact {
+	background: url(../image/contact-us.jpg) no-repeat center center fixed ; 
+	background-size: cover ;
+	
+	min-height: 300px;
+} 
+.contact .field  {
+	background-color:rgba(9,9,9, .8) ;
+	color: #FFF ;  
+	padding-top: 40px ;
+	padding-bottom: 40px ;
+	min-height: 300px;
+}
+.contact p {margin-bottom: 40px}
+.contact textarea {height: 108px}
+.contact input[type="text"],
+.contact textarea {
+	background-color: rgba(82,78,78,.7);
+	color: #fff;
+	border: none;
+}
