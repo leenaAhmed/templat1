@@ -1,0 +1,33 @@
+/**** start defulat color****/ 
+.option-box .option-color ,.testimonial .carousel-indicators li.active ,.option-box .fa-gear {
+	 
+ 	border: 3px solid  #31708f ;
+	 
+} 
+ 
+ /* backgroung*/ 
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav >.active > a:hover,  
+.option-box .fa-gear,
+.dropdown-menu >li >a:hover ,
+.dropdown-menu >li >a:focus ,
+.carousel-indicators li.active,
+.carousel-indicators li.active,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+	background-color:#31708f;
+}   
+ /* backgroung*/ 
+
+.dropdown-menu {
+	border-top: 3px solid #31708f ;
+}  
+ 
+ /* color*/
+.features .feat .fa ,.testimonial .item span,.footer h3,.footer .copyright  span,.navbar-brand span {
+	color:   #31708f;
+} 
+  /* color*/
+  
+ 
+ 
